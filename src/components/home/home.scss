@@ -1,0 +1,68 @@
+
+.home-section-container {
+    width: 100%;
+    min-height: auto;
+    
+    .home-section-anchor {
+        display: block;
+        height: 0px; /*same height as header*/
+        margin-top: 0px; /*same height as header*/
+        visibility: hidden;
+    }
+}
+
+div.home-section {
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url("../../../public/images/diego-home-2.jpg");
+    background-repeat: no-repeat;
+    
+    .home-content {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        text-align: center;
+        padding: 200px 0 0px;
+        
+        .home-content-footer {
+            margin-top: auto;
+            margin-bottom: 60px;
+            
+            .btn {
+                font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-size: 12px;
+                line-height: 20px;
+                padding: 8px 22px;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    div.home-section-container {
+        height: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    div.home-section-container {
+        margin-top: 68px;
+    }
+    
+    .home-section-anchor {
+        display: block;
+        height: 68px !important; /*same height as header*/
+        margin-top: -68px !important; /*same height as header*/
+        visibility: hidden;
+    }
+    
+    .home-content-footer {
+        margin-bottom: 30px !important;
+    }
+}

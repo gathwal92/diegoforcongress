@@ -1,0 +1,42 @@
+
+section.inspiration-section {
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    background-image: url("../../../public/images/inspiration-bg-2.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    .section-heading {
+        margin-top: 5px;
+    }
+
+    .inspiration-subheader {
+        font-size: 18px;
+        letter-spacing: 1.8px;
+    }
+    
+    .inspiration-img {
+        height: 500px;
+        padding: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    
+    section.inspiration-section {
+        
+        .inspiration-img {
+            height: 350px;
+            padding: 30px 0 0 0;
+        }
+        
+        .section-content {
+            text-align: center;
+        }
+    }
+}

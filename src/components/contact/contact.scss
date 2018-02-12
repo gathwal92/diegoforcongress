@@ -1,0 +1,21 @@
+
+section.contact-section {
+    color: white;
+    background-image: url("../../../public/images/get-in-touch-bg.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+    
+    section.contact-section {
+        
+        .section-content {
+            text-align: center;
+        }
+    }
+}

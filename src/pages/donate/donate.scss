@@ -1,0 +1,26 @@
+
+.root-inner-donate {
+    width: 100%;
+    height: auto;
+}
+
+section.donate-section {
+    padding: 170px 0px 100px 0;
+    background-color: #fff;
+    
+    .section-heading {
+        color: #565656;
+    }
+}
+
+@media (max-width: 767px) {
+    
+    section.donate-section {
+        padding: 120px 0px 100px 0;
+        background-color: #fff;
+        
+        .section-heading {
+            color: #565656;
+        }
+    }
+}

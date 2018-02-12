@@ -1,0 +1,32 @@
+
+footer {
+    color: white;
+    background-color: #27ae60;
+    padding: 60px 0;
+    text-align: center;
+    
+    a {
+        color: white !important;
+    }
+    
+    .footer-logo {
+        height: 124px;
+    }
+    
+    .footer-mid-section {
+        padding: 20px 0px;
+
+        .copyright {
+            border: 1px solid rgba(255, 255, 255, 0.35);
+            padding: 10px;
+        }
+    }
+    
+    .footer-social-icons {
+        min-width: 250px;
+        
+        a {
+            padding: 0px 10px;
+        }
+    }
+}

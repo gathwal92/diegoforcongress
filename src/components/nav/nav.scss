@@ -1,0 +1,312 @@
+
+.navbar-default {
+    background-color: white;
+    border-color: rgba(34, 34, 34, 0.05);
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
+    
+    .navbar-header {
+        
+        .navbar-brand {
+            font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+            font-weight: 200;
+            letter-spacing: 1px;
+            color: #fdcc52;
+            
+            &:hover, &:focus {
+                color: #fcbd20;
+            }
+            
+            img {
+                // background-color: #27AE60;
+                padding: 5px 18px;
+                height: 75px;
+            }
+        }
+        
+        .navbar-toggle {
+            font-size: 24px;
+            color: #FFFFFF;
+            padding: 9px 9px;
+            border: none;
+            height: 52px;
+            
+            &:hover, &:focus {
+                background: none;
+            }
+
+            .icon-bar {
+                background-color: #fff;
+            }
+        }
+    }
+    
+    ul.nav {
+        
+        li {
+            a {
+                .line {
+                    height: 1px;
+                    display: block;
+                    width: 0;
+                    margin-top: 4px;
+                    margin-left: 50%;
+                    background: #FFFFFF;
+                }
+                
+                &.sr-icons {
+                    padding: 10px 8px;
+                }
+            }
+        }
+        
+        > li {
+            
+            > a {
+                font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-size: 11px;
+                color: #FFFFFF;
+                
+                &:hover, &:focus, &:focus:hover {
+                    color: #FFFFFF;
+                }
+            }
+            
+            > a.nav-donate-btn {
+                background-color: #27AE60;
+                padding: 5px 18px;
+                margin-top: 10px;
+            }
+        }
+        
+        > li.active {
+            
+            > a {
+                color: #FFFFFF !important;
+                background-color: transparent;
+                
+                &:focus {
+                    color: #FFFFFF !important;
+                    background-color: transparent;
+                }
+                
+                &:hover, &:focus:hover {
+                    background-color: transparent;
+                }
+                
+                .line {
+                    width: 97%;
+                    margin-left: -1px;
+                }
+            }
+        }
+        
+        li.nav-donate-btn-item {
+            padding: 25px 15px;
+        }
+    }
+}
+
+
+@media (pointer: fine) {
+    nav ul li.hover a:hover .line {
+        width: 97%;
+        margin-left: -1px;
+    }
+}
+
+.navbar-fixed-top .navbar-collapse {
+    max-height: 347px;
+}
+
+
+
+@media (min-width: 768px) {
+    
+    .navbar-right {
+        margin-right: 0px;
+        
+        li {
+            a {
+                &.sr-icons {
+                    padding-top: 40px !important;
+                    padding-bottom: 40px !important;
+                }
+            }
+        }
+        
+        > li {
+            
+            > a {
+                padding-top: 40px;
+                padding-bottom: 40px;
+            }
+        }
+        
+    }
+    
+    .navbar-default {
+        background-color: transparent;
+        border-color: transparent;
+        
+        .navbar-header {
+            
+            .navbar-brand {
+                color: white;
+                
+                &:focus, &:hover {
+                    color: white;
+                }
+            }
+        }
+        
+        ul.nav {
+            
+            > li {
+                
+                > a {
+                    color: white;
+                    
+                    &:hover, &:focus, &:focus:hover {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    
+    .navbar-default.affix {
+        background-color: #27AE60;
+        border-color: rgba(34, 34, 34, 0.1);
+        
+        .navbar-header {
+            
+            .navbar-brand {
+                color: white;
+                
+                &:focus, &:hover {
+                    color: white;
+                }
+            }
+        }
+        
+        ul.nav {
+            
+            > li {
+                
+                > a {
+                    color: white;
+                    
+                    &:hover, &:focus, &:focus:hover {
+                        color: white;
+                    }
+                }
+                
+                > a.nav-donate-btn {
+                    background-color: white;
+                    color: #27AE60;
+                }
+            }
+        }
+    }
+    
+}
+
+
+@media (max-width: 767px) {
+    
+    .navbar-default {
+        background-color: #27AE60;
+        border: none;
+        
+        .navbar-header {
+            
+            .navbar-brand {
+                
+                img {
+                    height: 40px;
+                    padding: 0px 0px 0px 10px;
+                }
+            }
+        }
+        
+        .navbar-collapse {
+            background-color: #f3f3f3;
+            border-width: 0 0 1px;
+            border-style: solid;
+            border-color: #e7e7e7;
+        }
+        
+        ul.nav {
+            
+            li {
+                a {
+                    .line {
+                        background: #27AE60;
+                    }
+                }
+            }
+            
+            > li {
+                
+                > a {
+                    color: #222222;
+                    
+                    &:hover, &:focus, &:focus:hover {
+                        color: #222222;
+                    }
+                }
+                
+            }
+            
+            > li.active {
+                
+                > a {
+                    color: #222222 !important;
+                    background-color: transparent;
+                    
+                    &:focus {
+                        color: #222222 !important;
+                        background-color: transparent;
+                    }
+                    
+                    &:hover, &:focus:hover {
+                        background-color: transparent;
+                    }
+                }
+            }
+            
+            li.nav-donate-btn-item {
+                padding: 0px 15px 15px 15px;
+                
+                a {
+                    color: #FFF;
+                    padding: 13px 18px;
+                    margin-top: 0px;
+                }
+            }
+            
+            li:nth-last-child(-n+4) {
+                float: left;
+                margin-left: 10px;
+            }
+        }
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 958px) {
+    .navbar-default {
+        ul.nav {
+            li:nth-child(-n+5) {
+                display: none;
+            }
+        }
+    }
+}
