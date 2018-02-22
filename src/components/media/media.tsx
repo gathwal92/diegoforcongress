@@ -53,11 +53,17 @@ export default class Media extends React.Component {
                             </div>
                             <div className="col-md-6">
                                 <div className="insta-feed-header">
-                                    <h3>Campaign Ad</h3>
+                                    <h3>Campaign Ads</h3>
                                 </div>
                                     <div className="embed-responsive embed-responsive-16by9">
                                         <iframe frameBorder="0" allowFullScreen width="560" height="315"
-                                        src="https://www.youtube.com/embed/21M-vK2vK8A?ecver=1&amp;autoplay=1&amp;loop=1&amp;rel=1&amp;autohide=2&amp;color=red&amp;width=560&amp;width=560">
+                                        src="https://www.youtube.com/embed/21M-vK2vK8A?ecver=1&amp;rel=1&amp;autohide=2&amp;color=red&amp;width=560&amp;width=560">
+                                        </iframe>
+                                    </div>
+                                    <br />
+                                    <div className="embed-responsive embed-responsive-16by9">
+                                        <iframe frameBorder="0" allowFullScreen width="560" height="315"
+                                        src="https://www.youtube.com/embed/rM3b6Zjpd6U?ecver=1&amp;rel=1&amp;autohide=2&amp;color=red&amp;width=560&amp;width=560">
                                         </iframe>
                                     </div>
                             </div>
